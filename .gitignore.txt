@@ -1,0 +1,26 @@
+# Environnement virtuel
+.venv/
+venv/
+ENV/
+env/
+
+# Caches Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers temporaires générés par ton application
+*.html
+dashboard.html
+chart_*.html
+scatter_*.html
+pie_*.html
+
+
+# Variables d'environnement / Clés (au cas où)
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db

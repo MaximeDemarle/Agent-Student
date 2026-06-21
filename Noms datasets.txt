@@ -1,0 +1,26 @@
+Définition des datasets:
+=== describe_dataset ===
+
+--- Impact de l'IA --- ai_student_impact_dataset.csv
+50000 lignes, 16 colonnes.
+Catégorielles (utilise bar_chart, noms exacts) : ['Major_Category', 'Year_of_Study', 'Primary_Use_Case', 'Prompt_Engineering_Skill', 'Institutional_Policy', 'Burnout_Risk_Level']
+Numériques (utilise numeric_stats, noms exacts) : ['Student_ID', 'Pre_Semester_GPA', 'Weekly_GenAI_Hours', 'Tool_Diversity', 'Paid_Subscription', 'Traditional_Study_Hours', 'Perceived_AI_Dependency', 'Anxiety_Level_During_Exams', 'Post_Semester_GPA', 'Skill_Retention_Score']
+
+
+--- Réseaux sociaux et santé mentale --- Student Social Media And Mental Health Impact.csv
+5000 lignes, 13 colonnes.
+Catégorielles (utilise bar_chart, noms exacts) : ['Gender', 'Country', 'Academic_Level', 'Most_Used_Platform', 'Purpose_Of_Use', 'Stress_Level']
+Numériques (utilise numeric_stats, noms exacts) : ['Age', 'Avg_Daily_Usage_Hours', 'Daily_Unlocks', 'Study_Hours', 'Physical_Activity_Hours', 'Sleep_Hours_Per_Night', 'Mental_Health_Score']
+
+--- Performences des étudiants --- StudentPerformanceFactors.csv
+6607 lignes, 20 colonnes.
+Catégorielles (utilise bar_chart, noms exacts) : ['Parental_Involvement', 'Access_to_Resources', 'Extracurricular_Activities', 'Motivation_Level', 'Internet_Access', 'Family_Income', 'Teacher_Quality', 'School_Type', 'Peer_Influence', 'Learning_Disabilities', 'Parental_Education_Level', 'Distance_from_Home', 'Gender']
+Numériques (utilise numeric_stats, noms exacts) : ['Hours_Studied', 'Attendance', 'Sleep_Hours', 'Previous_Scores', 'Tutoring_Sessions', 'Physical_Activity', 'Exam_Score']
+
+
+
+Questions types pour tester l'application :
+
+Utilise l'outil analyse_impact_ia_par_groupe avec le fichier ai_student_impact_dataset.csv pour la colonne Primary_Use_Case. Affiche moi les deux premières lignes du tableau sans interpréter
+
+En te basant uniquement sur les 2 lignes que tu viens de me donner, lequel de ces deux cas d'utilisation a la moyenne d'heures d'IA (Weekly_GenAI_Hours) la plus élevée ?
